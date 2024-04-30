@@ -1,0 +1,17 @@
+.main{
+    width: 96vw;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.pictures{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+   height: 20vh;
+}
