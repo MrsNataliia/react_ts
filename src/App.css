@@ -1,0 +1,14 @@
+.app{
+    display: flex;
+}
+
+.users{
+    width: 50vw;
+    padding: 20px;
+    background: aliceblue;
+    }
+
+.posts{
+    width: 50vw;
+    background: aqua;
+}
