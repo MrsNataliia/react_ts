@@ -1,0 +1,19 @@
+import React, {FC} from 'react';
+
+import {IPost} from "../models/postInterfacel";
+import {Post} from "./Post";
+
+interface IProps{
+    posts: IPost[]
+}
+
+const Posts:FC<IProps> = ({posts}) => {
+
+    return (
+        <div>
+            {posts.map(post=><Post key={post.id} post={post}/>)}
+        </div>
+    );
+};
+
+export {Posts};
