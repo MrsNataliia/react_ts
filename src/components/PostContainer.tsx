@@ -9,7 +9,7 @@ import {postService} from "../service/postService";
 const PostContainer = () => {
 
     const [posts, setPosts] = useState<IPost[]>([])
-    const [trigger, setTrigger] = useState<boolean>(null)
+    const [trigger, setTrigger] = useState<boolean|null>(null)
 
     useEffect(() => {
         postService.getAll().then(({data}) => setPosts(data))
